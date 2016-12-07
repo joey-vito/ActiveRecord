@@ -10,3 +10,7 @@ gem 'awesome_print'
 gem 'rake'
 gem 'sqlite3'
 gem 'haml'
+
+group :development, :test do
+  gem 'byebug'
+end
